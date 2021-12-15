@@ -4,7 +4,7 @@
 </p>
 <div align="center">
   <p align="center">
-<img src=https://i.imgur.com/w89FHm7.jpeg>
+<img src=achutty.jpg>
 </p>
   <p align="center">
 <a href="https://github.com/amalachuzz"><img title="Author" src="https://img.shields.io/badge/Author-amalachuzz/Achutty?color=blue&style=for-the-badge&logo=whatsapp"></a>
