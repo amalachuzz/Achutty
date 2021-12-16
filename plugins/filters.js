@@ -58,7 +58,7 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./files/uploads/A
 await message.client.sendMessage(message.jid, fs.readFileSync('./files/uploads/Devil.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.SAID, quoted : message.data, ptt: true})
         }
         
-const array = ['Amal','Chunk','Cr7','Devil','Myr','Hi','Sathyam','Single','bro','kozhi','line','nanba','pm','poyi']
+const array = ['Amal','Chunk','Cr7','Devil','Myr','Hi','Pottum','Sathyam','Single','bro','kozhi','line','nanba','pm','poyi']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
@@ -91,7 +91,7 @@ await message.client.sendMessage(message.jid, fs.readFileSync('./files/Achuttyv2
 await message.client.sendMessage(message.jid, fs.readFileSync('./files/Achuttyv2 /Devil.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio,duration: Config.SAID, quoted : message.data, ptt: true})
         }
         var uri = encodeURI(match[1])
-const array = ['Amal','Chunk','Cr7','Devil','Myr','Hi','Sathyam','Single','bro','kozhi','line','nanba','pm','poyi']
+const array = ['Amal','Chunk','Cr7','Devil','Myr','Hi','Pottum','Sathyam','Single','bro','kozhi','line','nanba','pm','poyi']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
